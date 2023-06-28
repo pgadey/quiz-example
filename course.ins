@@ -1,0 +1,10 @@
+%<*driver>
+\input docstrip.tex
+\askforoverwritefalse
+\generate{
+\file{TEX/quiz-version-a.tex}{\from{course.dtx}{version-a}}
+\file{TEX/quiz-version-b.tex}{\from{course.dtx}{version-b}}
+\file{TEX/quiz-all-versions.tex}{\from{course.dtx}{all}}
+}
+\endbatchfile
+%</driver>
